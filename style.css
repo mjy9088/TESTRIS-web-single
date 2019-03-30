@@ -1,16 +1,16 @@
-html, body
+html, body, div#main table, div#main td
 {
     margin: 0px;
     padding: 0px;
     border: none;
     width: 100%;
     height: 100%;
-    background: #444444;
+    background: #000000;
 }
 
 div#main
 {
-    background: #000000;
+    background: #444444;
     margin: 0px auto;
     width: 50vh;
     height: 100%;
@@ -25,14 +25,43 @@ div#main
     }
 }
 
-div#main table
-{
-    width: 100%;
-    height: 100%;
-}
-
 div#main td
 {
     width: 10%;
     height: 5%;
+}
+
+div#main td.t1
+{
+    background: #88FFFF;
+}
+
+div#main td.t2
+{
+    background: #0000FF;
+}
+
+div#main td.t3
+{
+    background: #FF8800;
+}
+
+div#main td.t4
+{
+    background: #FFFF00;
+}
+
+div#main td.t5
+{
+    background: #008888;
+}
+
+div#main td.t6
+{
+    background: #8800FF;
+}
+
+div#main td.t7
+{
+    background: #880000;
 }
