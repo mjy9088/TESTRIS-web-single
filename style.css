@@ -24,3 +24,15 @@ div#main
         height: 200vw;
     }
 }
+
+div#main table
+{
+    width: 100%;
+    height: 100%;
+}
+
+div#main td
+{
+    width: 10%;
+    height: 5%;
+}
