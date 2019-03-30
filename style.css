@@ -10,7 +10,6 @@ html, body, div#main table, div#main td
 
 div#main
 {
-    background: #444444;
     margin: 0px auto;
     width: 50vh;
     height: 100%;
@@ -27,6 +26,7 @@ div#main
 
 div#main td
 {
+    background: #444444;
     width: 10%;
     height: 5%;
 }
